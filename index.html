@@ -3,10 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>David Miller | Personal Portfolio</title>
+    <title>David Miller | Premium Portfolio</title>
     <meta name="description" content="Professional portfolio of David Miller, a Digital Strategist and Creative Developer helping brands grow.">
-    <meta name="keywords" content="Portfolio, Web Developer, Digital Strategy, David Miller, Creative Design">
-    
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -16,22 +14,27 @@
 </head>
 <body>
 
+    <!-- Background Blobs -->
+    <div class="bg-blob blob-1"></div>
+    <div class="bg-blob blob-2"></div>
+    <div class="bg-blob blob-3"></div>
+
     <!-- Header / Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand fw-bold text-white fs-3" href="index.html">DM<span class="text-primary-custom" style="color:var(--primary-color)">.</span></a>
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
+            <a class="navbar-brand fw-bold text-white fs-3" href="index.html">D<span class="highlight-text">M.</span></a>
+            <button class="navbar-toggler border-0 shadow-none text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto align-items-center">
                     <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
                     <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="contact.html">
-                        <span class="btn-primary-custom px-3 py-1">Contact</span>
-                    </a></li>
+                    <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+                        <a href="contact.html" class="btn btn-primary-custom btn-sm px-4">Let's Talk</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -41,124 +44,79 @@
     <section class="hero-section">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <h5 class="text-primary-custom mb-3" style="color:var(--primary-color); font-weight:600">HELLO, I'M DAVID MILLER</h5>
-                    <h1 class="hero-title">Crafting Digital Experiences That Matter</h1>
-                    <p class="lead text-muted mb-4">A dedicated Digital Strategist & Creative Developer with over 8 years of experience in building high-performance websites and brands.</p>
-                    <div class="d-flex gap-3">
-                        <a href="portfolio.html" class="btn btn-primary-custom">View My Work</a>
-                        <a href="about.html" class="btn btn-outline-custom">Learn More</a>
+                <div class="col-lg-7">
+                    <div class="badge rounded-pill bg-dark border border-secondary px-3 py-2 mb-4 text-white">
+                        <span class="text-primary-custom">•</span> Available for new projects
+                    </div>
+                    <h1 class="hero-title">Elevating <span class="highlight-text">Digital</span> <br>Boundaries</h1>
+                    <p class="lead text-muted mb-5 pe-lg-5 fs-4">I craft immersive digital experiences that blend aesthetic elegance with technical precision.</p>
+                    <div class="d-flex flex-wrap gap-4">
+                        <a href="portfolio.html" class="btn btn-primary-custom py-3 px-5">Explore Work <i class="fas fa-arrow-right ms-2"></i></a>
+                        <a href="about.html" class="btn btn-outline-custom">Our Story</a>
                     </div>
                 </div>
-                <div class="col-lg-6 text-center mt-5 mt-lg-0">
-                    <div class="position-relative d-inline-block">
-                        <img src="assets/profile.png" alt="David Miller" class="img-fluid rounded-4 shadow-lg" style="max-height: 500px; border: 1px solid var(--border-color)">
-                        <div class="glass-card position-absolute bottom-0 start-0 translate-middle-y p-3 m-3 d-none d-md-block" style="width: 200px">
-                            <h4 class="mb-0">8+</h4>
-                            <p class="small text-muted mb-0">Years of Experience</p>
-                        </div>
+                <div class="col-lg-5 mt-5 mt-lg-0">
+                    <div class="image-frame">
+                        <img src="assets/profile.png" alt="David Miller" class="img-fluid rounded-4 shadow-2-strong" style="border: 1px solid var(--border-color)">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Mission & Vision -->
-    <section class="py-5 mt-5">
+    <!-- Career Mission & Vision -->
+    <section class="py-5">
         <div class="container">
-            <div class="row g-4">
+            <div class="row g-5">
                 <div class="col-md-6">
                     <div class="glass-card">
-                        <div class="mb-4">
-                            <i class="fa-solid fa-rocket fa-3x text-primary-custom" style="color:var(--primary-color)"></i>
+                        <div class="mb-5 d-flex align-items-center justify-content-center bg-dark rounded-circle border border-secondary" style="width: 80px; height: 80px">
+                            <i class="fa-solid fa-bolt fa-2x text-primary-custom" style="color:var(--primary-color)"></i>
                         </div>
-                        <h3 class="section-title">Career Mission</h3>
-                        <p class="text-muted">To bridge the gap between complex technology and intuitive user experience, creating digital solutions that are as functional as they are beautiful. I strive to empower businesses through innovative web strategies.</p>
+                        <h2 class="section-title mb-4">Mission</h2>
+                        <p class="text-muted fs-5">To deliver cutting-edge technology solutions that don't just meet expectations but redefine industry standards for user experience and performance.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="glass-card">
-                        <div class="mb-4">
-                            <i class="fa-solid fa-eye fa-3x text-primary-custom" style="color:var(--primary-color)"></i>
+                        <div class="mb-5 d-flex align-items-center justify-content-center bg-dark rounded-circle border border-secondary" style="width: 80px; height: 80px">
+                            <i class="fa-solid fa-gem fa-2x text-primary-custom" style="color:var(--primary-color)"></i>
                         </div>
-                        <h3 class="section-title">Career Vision</h3>
-                        <p class="text-muted">To be a leading voice in sustainable and accessible web design, fostering a digital landscape where every interaction is meaningful, and every brand story is told with clarity and impact.</p>
+                        <h2 class="section-title mb-4">Vision</h2>
+                        <p class="text-muted fs-5">Building a future where digital interactions are as natural and fluid as human conversation, powered by transparent and ethical technology.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Brief Service List -->
+    <!-- Featured Services (Grid) -->
     <section class="py-5 my-5">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="section-title">Featured Services</h2>
-                <p class="text-muted">High-impact solutions tailored to your business goals.</p>
+                <h6 class="text-primary-custom fw-bold">WHAT WE DO</h6>
+                <h2 class="section-title">Exclusive Services</h2>
             </div>
             <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="glass-card text-center h-100">
-                        <i class="fa-solid fa-code fa-2x mb-3 text-primary-custom"></i>
-                        <h4>Web Development</h4>
-                        <p class="text-muted">Building robust, scalable, and SEO-friendly web applications using the latest tech stacks.</p>
+                <div class="col-lg-4">
+                    <div class="glass-card">
+                        <i class="fa-solid fa-terminal fa-3x mb-4 text-primary-custom"></i>
+                        <h4>Core Development</h4>
+                        <p class="text-muted">High-performance engines for your digital products.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="glass-card text-center h-100">
-                        <i class="fa-solid fa-pen-nib fa-2x mb-3 text-primary-custom"></i>
-                        <h4>UI/UX Design</h4>
-                        <p class="text-muted">Creating intuitive interfaces and engaging user journeys that convert visitors into loyal customers.</p>
+                <div class="col-lg-4">
+                    <div class="glass-card">
+                        <i class="fa-solid fa-wand-magic-sparkles fa-3x mb-4 text-primary-custom"></i>
+                        <h4>Fluid UI/UX</h4>
+                        <p class="text-muted">Design that feels alive and responds to your touch.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mx-auto">
-                    <div class="glass-card text-center h-100">
-                        <i class="fa-solid fa-bullhorn fa-2x mb-3 text-primary-custom"></i>
-                        <h4>Digital Strategy</h4>
-                        <p class="text-muted">Developing data-driven strategies to boost your online presence and market reach.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mt-5">
-                <a href="services.html" class="btn btn-outline-custom">See All Services</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Client Feedback -->
-    <section class="py-5 my-5">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="section-title">Client Feedback</h2>
-                <p class="text-muted">What people say about working with me.</p>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-6">
-                    <div class="glass-card h-100">
-                        <div class="d-flex mb-3 text-warning">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                        <p class="fst-italic text-muted">"David transformed our outdated website into a modern, lightning-fast platform. Our conversion rate increased by 40% in just two months!"</p>
-                        <div class="d-flex align-items-center mt-4">
-                            <div class="ms-0">
-                                <h6 class="mb-0">Sarah Jenkins</h6>
-                                <span class="small text-muted">CEO, TechFlow Solutions</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="glass-card h-100">
-                        <div class="d-flex mb-3 text-warning">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                        <p class="fst-italic text-muted">"A true professional who understands both business logic and technical execution. Highly recommended for any complex web project."</p>
-                        <div class="d-flex align-items-center mt-4">
-                            <div class="ms-0">
-                                <h6 class="mb-0">Michael Chen</h6>
-                                <span class="small text-muted">Marketing Director, Global Edge</span>
-                            </div>
-                        </div>
+                <div class="col-lg-4">
+                    <div class="glass-card">
+                        <i class="fa-solid fa-shield-halved fa-3x mb-4 text-primary-custom"></i>
+                        <h4>Digital Security</h4>
+                        <p class="text-muted">Fortifying your brand in an ever-evolving landscape.</p>
                     </div>
                 </div>
             </div>
@@ -168,19 +126,15 @@
     <!-- Footer -->
     <footer class="text-center">
         <div class="container">
-            <div class="mb-4">
-                <a href="#" class="text-white mx-3 fs-4"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="text-white mx-3 fs-4"><i class="fab fa-github"></i></a>
-                <a href="#" class="text-white mx-3 fs-4"><i class="fab fa-twitter"></i></a>
+            <h3 class="fw-bold mb-4">Let's <span class="highlight-text">Collaborate</span></h3>
+            <p class="text-muted mb-5">Currently accepting bookings for Q3 2026.</p>
+            <div class="mb-5">
+                <a href="#" class="text-white mx-3 fs-3"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-white mx-3 fs-3"><i class="fab fa-github"></i></a>
+                <a href="#" class="text-white mx-3 fs-3"><i class="fab fa-dribbble"></i></a>
             </div>
-            <p class="text-muted">© 2026 David Miller. All rights reserved.</p>
-            <div class="mt-3">
-                <a href="index.html" class="text-muted mx-2 text-decoration-none small">Home</a>
-                <a href="about.html" class="text-muted mx-2 text-decoration-none small">About</a>
-                <a href="portfolio.html" class="text-muted mx-2 text-decoration-none small">Portfolio</a>
-                <a href="services.html" class="text-muted mx-2 text-decoration-none small">Services</a>
-                <a href="contact.html" class="text-muted mx-2 text-decoration-none small">Contact</a>
-            </div>
+            <hr class="border-secondary opacity-25">
+            <p class="text-muted small mt-4">© 2026 David Miller. Crafted with Passion.</p>
         </div>
     </footer>
 

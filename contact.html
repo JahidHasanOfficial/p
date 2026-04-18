@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | David Miller</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Background Blobs -->
+    <div class="bg-blob blob-1"></div>
+    <div class="bg-blob blob-2"></div>
+    <div class="bg-blob blob-3"></div>
+
+    <!-- Header / Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top scrolled">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-white fs-3" href="index.html">D<span class="highlight-text">M.</span></a>
+            <button class="navbar-toggler border-0 shadow-none text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item ms-lg-3"><a href="contact.html" class="btn btn-primary-custom btn-sm px-4">Let's Talk</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Title Section -->
+    <section class="py-5 mt-5 text-center">
+        <div class="container mt-5">
+            <h1 class="display-3 fw-bold hero-title">Start a <span class="highlight-text">Conversation</span></h1>
+            <p class="text-muted lead">Ready to bring your idea to life? Reach out today.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-5">
+                    <div class="glass-card h-100">
+                        <h3 class="mb-5">Inquiry Details</h3>
+                        <div class="d-flex align-items-center mb-5">
+                            <div class="p-3 bg-dark rounded-3 border border-secondary me-4">
+                                <i class="fas fa-envelope highlight-text fs-4"></i>
+                            </div>
+                            <div>
+                                <p class="text-white small mb-1">Direct Email</p>
+                                <h5 class="mb-0">hello@davidmiller.dev</h5>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-5">
+                            <div class="p-3 bg-dark rounded-3 border border-secondary me-4">
+                                <i class="fas fa-clock highlight-text fs-4"></i>
+                            </div>
+                            <div>
+                                <p class="text-white small mb-1">Working Hours</p>
+                                <h5 class="mb-0">Mon - Fri: 9AM - 6PM EST</h5>
+                            </div>
+                        </div>
+                        <div class="mt-auto">
+                            <h6 class="text-muted mb-4">SOCIAL NETWORKS</h6>
+                            <div class="d-flex gap-4">
+                                <a href="#" class="btn btn-outline-custom p-0 rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" class="btn btn-outline-custom p-0 rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="btn btn-outline-custom p-0 rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px"><i class="fab fa-behance"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="glass-card">
+                        <form id="contactForm">
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control py-3" placeholder="Full Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control py-3" placeholder="Email Address" required>
+                                </div>
+                                <div class="col-12">
+                                    <select class="form-control py-3 bg-dark">
+                                        <option selected>Interested in...</option>
+                                        <option>Web Development</option>
+                                        <option>UI/UX Strategy</option>
+                                        <option>AI Solutions</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control py-3" rows="6" placeholder="Project Details"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary-custom w-100 py-3">Submit Request <i class="fas fa-paper-plane ms-2"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Map -->
+    <section class="py-5">
+        <div class="container">
+            <div class="glass-card p-0 overflow-hidden" style="height: 450px; border-radius: 32px">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019297802035!2d-122.40140702344!3d37.78910357198254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064971f1f51%3A0xc6a8276f7c7eb5f0!2sMarket%20St%2C%20San%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-5">
+        <div class="container">
+            <p class="text-muted small">© 2026 David Miller. Let's make history.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Your request has been sent! We will contact you shortly.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
